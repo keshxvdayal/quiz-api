@@ -1,139 +1,124 @@
 {
-    "questions": [
-      {
-        "question": "Which is the most popular JavaScript framework?",
-        "options": ["Angular", "React", "Svelte", "Vue"],
-        "correctOption": 1,
-        "points": 10
-      },
-      {
-        "question": "Which company invented React?",
-        "options": ["Google", "Apple", "Netflix", "Facebook"],
-        "correctOption": 3,
-        "points": 10
-      },
-      {
-        "question": "What's the fundamental building block of React apps?",
-        "options": ["Components", "Blocks", "Elements", "Effects"],
-        "correctOption": 0,
-        "points": 10
-      },
-      {
-        "question": "What's the name of the syntax we use to describe the UI in React components?",
-        "options": ["FBJ", "Babel", "JSX", "ES2015"],
-        "correctOption": 2,
-        "points": 10
-      },
-      {
-        "question": "How does data flow naturally in React apps?",
-        "options": [
-          "From parents to children",
-          "From children to parents",
-          "Both ways",
-          "The developers decides"
-        ],
-        "correctOption": 0,
-        "points": 10
-      },
-      {
-        "question": "How to pass data into a child component?",
-        "options": ["State", "Props", "PropTypes", "Parameters"],
-        "correctOption": 1,
-        "points": 10
-      },
-      {
-        "question": "When to use derived state?",
-        "options": [
-          "Whenever the state should not trigger a re-render",
-          "Whenever the state can be synchronized with an effect",
-          "Whenever the state should be accessible to all components",
-          "Whenever the state can be computed from another state variable"
-        ],
-        "correctOption": 3,
-        "points": 30
-      },
-      {
-        "question": "What triggers a UI re-render in React?",
-        "options": [
-          "Running an effect",
-          "Passing props",
-          "Updating state",
-          "Adding event listeners to DOM elements"
-        ],
-        "correctOption": 2,
-        "points": 20
-      },
-      {
-        "question": "When do we directly \"touch\" the DOM in React?",
-        "options": [
-          "When we need to listen to an event",
-          "When we need to change the UI",
-          "When we need to add styles",
-          "Almost never"
-        ],
-        "correctOption": 3,
-        "points": 20
-      },
-      {
-        "question": "In what situation do we use a callback to update state?",
-        "options": [
-          "When updating the state will be slow",
-          "When the updated state is very data-intensive",
-          "When the state update should happen faster",
-          "When the new state depends on the previous state"
-        ],
-        "correctOption": 3,
-        "points": 30
-      },
-      {
-        "question": "If we pass a function to useState, when will that function be called?",
-        "options": [
-          "On each re-render",
-          "Each time we update the state",
-          "Only on the initial render",
-          "The first time we update the state"
-        ],
-        "correctOption": 2,
-        "points": 30
-      },
-      {
-        "question": "Which hook to use for an API request on the component's initial render?",
-        "options": ["useState", "useEffect", "useRef", "useReducer"],
-        "correctOption": 1,
-        "points": 10
-      },
-      {
-        "question": "Which variables should go into the useEffect dependency array?",
-        "options": [
-          "Usually none",
-          "All our state variables",
-          "All state and props referenced in the effect",
-          "All variables needed for clean up"
-        ],
-        "correctOption": 2,
-        "points": 30
-      },
-      {
-        "question": "An effect will always run on the initial render.",
-        "options": [
-          "True",
-          "It depends on the dependency array",
-          "False",
-          "In depends on the code in the effect"
-        ],
-        "correctOption": 0,
-        "points": 30
-      },
-      {
-        "question": "When will an effect run if it doesn't have a dependency array?",
-        "options": [
-          "Only when the component mounts",
-          "Only when the component unmounts",
-          "The first time the component re-renders",
-          "Each time the component is re-rendered"
-        ],
-        "correctOption": 3,
-        "points": 20
-      }
-    ]
-  }
+  "questions": [
+    {
+      "question": "Which of the following is not a linear equation in one variable?",
+      "options": ["33z+5 = 0", "33(x+y) = 0", "33x+5 = 0", "33y+5 = 0"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "The solution of 2x-3=7 is:",
+      "options": ["5", "7", "12", "11"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "The solution of 2y + 9 = 4 is:",
+      "options": ["9/2", "4/9", "-⅖", "-5/2"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "The solution of y/5 = 10 is:",
+      "options": ["15", "10", "50", "5"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What should be added to -7/3 to get 3/7?",
+      "options": ["21/58", "58/21", "47/21", "50/21"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "The perimeter of the rectangle is 20cm. If the length of the rectangle is 6cm, then its breadth will be:",
+      "options": ["4 cm", "6 cm", "10 cm", "14 cm"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "The age of the father is three times the age of the son. If the age of the son is 15 years old, then the age of the father is:",
+      "options": ["50 years", "55 years", "40 years", "45 years"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "The difference between two whole numbers is 66. The ratio of the two numbers is 2: 5. The two numbers are:",
+      "options": ["60 and 6", "100 and 33", "110 and 44", "99 and 33"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Three consecutive integers add up to 51. The integers are:",
+      "options": ["16,17,18", "15,16,17", "17,18,19", "18,19,20"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "The solution for 3m = 5m – (8/5) is:",
+      "options": ["8/5", "⅘", "5/4", "4/3"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "The degree of x² – 5x + 2 = x³ is:",
+      "options": ["3", "2", "1", "0"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "The degree of equation x² – 9 = 2x² is:",
+      "options": ["0", "1", "2", "3"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What is the value of x if x + 9 = 12?",
+      "options": ["2", "3", "8", "6"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "If a number is divided by 8 it gives 6 as the value. Find the number.",
+      "options": ["36", "42", "48", "56"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Solve 2x + 9 = 4.",
+      "options": ["X = 6", "X = -5/2", "X = -3/2", "X = -9/2"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Find the value of x if 2x + 10 = 76.",
+      "options": ["33", "7.6", "66", "32"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "The perimeter of a rectangle is 40 cm. If its width is 10 cm, then find the length.",
+      "options": ["10", "20", "30", "40"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "If x is an even number, then the next even number is:",
+      "options": ["x+1", "x+2", "x+3", "x+4"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "The difference between the two numbers is 30. If the bigger number is x, then what is the smaller number?",
+      "options": ["x – 30", "30 – x", "30x", "None of these"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "When a number is added to itself, it becomes 24. What is the number?",
+      "options": ["2", "4", "12", "21"],
+      "correctOption": 2,
+      "points": 10
+    }
+  ]
+}
